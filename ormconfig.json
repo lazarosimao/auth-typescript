@@ -1,0 +1,18 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 8889,
+  "username": "root",
+  "password": "1234",
+  "database": "tsauth",
+  "logging": true,
+  "entities": [
+     "src/app/models/*.ts"
+  ],
+  "migrations": [
+     "src/database/migrations/*.ts"
+  ],
+  "cli": {
+   "migrationsDir": "src/database/migrations"
+ }
+}
